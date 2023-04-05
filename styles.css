@@ -116,6 +116,7 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 4rem;
+  margin-bottom: 4rem;
 }
 
 .hero-imgs {
@@ -168,16 +169,41 @@ header {
   color: #fff;
 }
 
-.hero-img-box {
+/* DISCOVER SECTION */
+
+.discover-section {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.heading-secondary {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
 }
 
-.hero-image {
-  height: 40rem;
-  width: 40rem;
+.discover-image-box {
+  display: flex;
+  align-items: flex-end;
+  /* justify-content: center; */
+}
+
+.discover-image {
+  height: 50rem;
+  width: 35rem;
   object-fit: cover;
+  border-radius: 2rem;
+  margin-left: -4rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
   /* height: 35%;
   width: 35%; */
+}
+
+.discover-image--1 {
+  height: 60rem;
+  width: 35rem;
+  z-index: 1;
 }
 
 /*
