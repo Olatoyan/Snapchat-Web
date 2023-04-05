@@ -6,160 +6,242 @@
     <meta name="author" content="Apex" />
     <title>Snapchat Web Landing page- JTC</title>
     <link rel="icon" href="/favicon.ico" />
-    <link rel="stylesheet" href="./assets/bootstrap-icons/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-icons/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="./styles.css" type="text/css" media="all" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <meta name="theme-color" content="#FFFC00" />
   </head>
   <body>
+    <header class="snap-header">
+      <nav class="snap-nav">
+        <div class="nav-logo-box">
+          <ion-icon class="logo" name="logo-snapchat"></ion-icon>
+        </div>
+        <div class="nav-navigations">
+          <ul class="nav-links">
+            <li><a class="nav-link" href="#"> Stories</a></li>
+            <li><a class="nav-link" href="#">Spotlight</a></li>
+            <li><a class="nav-link" href="#">Chat</a></li>
+            <li><a class="nav-link" href="#">Lenses</a></li>
+            <li><a class="nav-link" href="#">Map</a></li>
+          </ul>
+        </div>
+        <div class="nav-cta">
+          <a href="#" class="cta">Create an account</a>
+          <a href="#" class="cta">Login</a>
+        </div>
+      </nav>
+    </header>
     <main>
-      <section class="header">
-        <header>
-          <button class="menu-btn">
-            <span class="bi bi-list"></span>
-          </button>
-         <div class="logo">
-           <span class="bi bi-snapchat"></span>
-         </div>
-         <button class="login-btn">
-           Login
-         </button>
-         <div class="menu sm">
-           <!--To be implemented later-->
-         </div>
-         <div class="menu lg">
-           <!--To be implemented later-->
-         </div>
-        </header>
+      <section class="snap-hero-section">
+        <div class="hero-imgs">
+          <img src="assets/images/user1.jpg" alt="user 1" class="hero-img" />
+          <img
+            src="assets/images/user2.jpg"
+            alt="user 2"
+            class="hero-img main-img"
+          />
+          <img src="assets/images/user3.jpg" alt="user 3" class="hero-img" />
+        </div>
+        <p class="little-text">Be beautiful</p>
+        <div class="text-box">
+          <p class="hero-text">Pictures has never been this social</p>
+          <p class="final-text">
+            Create, curate & discover stories from around the world on Snapchat
+          </p>
+        </div>
+        <button class="btn">Create an account</button>
+
+        <div class="hero-img-box">
+          <img
+            src="assets/images/jenna-day-jMsJlnMMyZI-unsplash.jpg"
+            alt="pic 1"
+            class="hero-image"
+          /><img
+            src="assets/images/may-gauthier-Dm6bpLZi238-unsplash.jpg"
+            alt="pic 2"
+            class="hero-image"
+          /><img
+            src="assets/images/tyler-mullins-H-lDpIVIlBM-unsplash.jpg"
+            alt="pic 3"
+            class="hero-image"
+          />
+        </div>
       </section>
-      <section class="content">
-        <section class="hero">
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
+
+<!-- <main>
+    <section class="header">
+      <header>
+        <button class="menu-btn">
+          <span class="bi bi-list"></span>
+        </button>
+        <div class="logo">
+          <span class="bi bi-snapchat"></span>
+        </div>
+        <button class="login-btn">Login</button>
+        <div class="menu sm">
+          To be implemented later
+        </div>
+        <div class="menu lg">
+          To be implemented later
+        </div>
+      </header>
+    </section>
+    <section class="content">
+      <section class="hero">
         <div class="group">
           <div class="left">
             <h2>Snapchat. Now on the Web.</h2>
             <figure>
-              <img src="./assets/images/mobile-landing-display.png" alt="" class="hero-img">
+              <img
+                src="./assets/images/mobile-landing-display.png"
+                alt=""
+                class="hero-img"
+              />
             </figure>
           </div>
           <div class="right">
             <h1 class="headline sm">
-              Try the new Snapchat for Web even on your Mobile device 
+              Try the new Snapchat for Web even on your Mobile device
             </h1>
             <h1 class="headline lg">
               Try the new Snapchat for Web even on your Computer
             </h1>
-           <button class="try-it">
-             Try Now
-           </button> 
-           <div class="discover">
-             <!--h1 tag to be animated-->
-            <h1>&#x2191;</h1>
-            <p>You Can Do More</p>
-           </div>
+            <button class="try-it">Try Now</button>
+            <div class="discover">
+              h1 tag to be animated
+              <h1>&#x2191;</h1>
+              <p>You Can Do More</p>
+            </div>
           </div>
         </div>
-        </section>
-        <section class="showcase">
-          <div class="item">
-            <div class="box">
-              <div class="bg">
-                <video autoplay muted loop>
-                  <source src="./assets/videos/lens.mp4" type="video/mp4">
-                </video>
-              </div>
-              <div class="detail">
-               <h1>AI Powered Lens</h1>
-               <p>Express yourself with millions of Lenses.</p>
-               <button>
-                 <div class="floor"></div>
-                 <span>Try Now</span>
-               </button>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <div class="bg">
-                <video autoplay muted loop>
-                  <source src="./assets/videos/find-your-friends.mp4" type="video/mp4">
-                </video>
-              </div>
-              <div class="detail">
-               <h1>Find Friends</h1>
-               <p>Have fun with your Friends and Family.</p>
-               <button>
-                 <div class="floor"></div>
-                 <span>Find Friends</span>
-               </button>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <div class="bg">
-                <video autoplay muted loop>
-                  <source src="./assets/videos/map.mp4" type="video/mp4">
-                </video>
-              </div>
-              <div class="detail">
-               <h1>Share Your Location</h1>
-               <p>Share and View Moments when Those Close to You.</p>
-               <button>
-                 <div class="floor"></div>
-                 <span>View</span>
-               </button>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <div class="bg">
-                <video autoplay muted loop>
-                  <source src="./assets/videos/spotlight.mp4" type="video/mp4">
-                </video>
-              </div>
-              <div class="detail">
-               <h1>Spotlight</h1>
-               <p>Capture Every Moment Augmented reality Filters.</p>
-               <button>
-                 <div class="floor"></div>
-                 <span>Let's Go</span>
-               </button>
-              </div>
-            </div>
-          </div>
-        </section>
       </section>
-      <section class="footer">
-        <div class="inner">
-          <div class="btn-group">
+      <section class="showcase">
+        <div class="item">
+          <div class="box">
+            <div class="bg">
+              <video autoplay muted loop>
+                <source src="./assets/videos/lens.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="detail">
+              <h1>AI Powered Lens</h1>
+              <p>Express yourself with millions of Lenses.</p>
+              <button>
+                <div class="floor"></div>
+                <span>Try Now</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="bg">
+              <video autoplay muted loop>
+                <source
+                  src="./assets/videos/find-your-friends.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div class="detail">
+              <h1>Find Friends</h1>
+              <p>Have fun with your Friends and Family.</p>
+              <button>
+                <div class="floor"></div>
+                <span>Find Friends</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="bg">
+              <video autoplay muted loop>
+                <source src="./assets/videos/map.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="detail">
+              <h1>Share Your Location</h1>
+              <p>Share and View Moments when Those Close to You.</p>
+              <button>
+                <div class="floor"></div>
+                <span>View</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="bg">
+              <video autoplay muted loop>
+                <source
+                  src="./assets/videos/spotlight.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div class="detail">
+              <h1>Spotlight</h1>
+              <p>Capture Every Moment Augmented reality Filters.</p>
+              <button>
+                <div class="floor"></div>
+                <span>Let's Go</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="footer">
+      <div class="inner">
+        <div class="btn-group">
           <button class="sm">
             <span>Download</span>
           </button>
           <button class="lg">
             <span>Snapchat Web</span>
           </button>
-          </div>
-          <div class="socials">
-            <span class="bi bi-facebook"></span>
-            <span class="bi bi-instagram"></span>
-            <span class="bi bi-twitter"></span>
-            <span class="bi bi-linkedin"></span>
-          </div>
-          <div class="logo">
-            <span class="bi bi-snapchat"></span>
-            <p>Snapchat</p>
-          </div>
-          <div class="links">
-            <!--Necessary Links to Be implemented Later-->
-          </div>
-          <div class="credits">
-           <span>&copy; 2023 </span>
-           <span>•</span>
-           <span> JTC</span>
-          </div>
         </div>
-      </section>
-    </main>
-  </body>
-</html>
+        <div class="socials">
+          <span class="bi bi-facebook"></span>
+          <span class="bi bi-instagram"></span>
+          <span class="bi bi-twitter"></span>
+          <span class="bi bi-linkedin"></span>
+        </div>
+        <div class="logo">
+          <span class="bi bi-snapchat"></span>
+          <p>Snapchat</p>
+        </div>
+        <div class="links">
+          Necessary Links to Be implemented Later
+        </div>
+        <div class="credits">
+          <span>&copy; 2023 </span>
+          <span>•</span>
+          <span> JTC</span>
+        </div>
+      </div>
+    </section>
+  </main> -->

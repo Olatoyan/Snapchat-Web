@@ -31,6 +31,156 @@ Hex: #FFFFFF
 RGB: (255 255 255)
 HSL: (0 0% 100%)
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fffc00;
+  font-family: "Lexend", Arial, Helvetica, sans-serif;
+  line-height: 1;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+/* Header section */
+
+header {
+  margin-bottom: 4rem;
+}
+.snap-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+.nav-logo-box {
+}
+.nav-navigations {
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.7rem;
+}
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  transition: all 0.4s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  /* background-color: black; */
+  background-color: rgba(236, 233, 0);
+}
+.nav-cta {
+  display: flex;
+  gap: 2rem;
+}
+
+.cta:link,
+.cta:visited {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  background-color: black;
+  border-radius: 5rem;
+}
+
+.logo {
+  /* fill: blue; */
+  color: black;
+  /* color: white; */
+  width: 30px;
+  height: 30px;
+  /* fill: #fffc00; */
+}
+
+/* MAIN  SECTION  Arial */
+
+.snap-hero-section {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.hero-imgs {
+  display: flex;
+}
+
+.hero-img {
+  width: 15rem;
+  height: 15rem;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: -4rem;
+}
+
+.main-img {
+  z-index: 1;
+  margin-top: -4rem;
+  height: 17rem;
+  width: 17rem;
+  /* border-left: 1rem solid rgba(0, 0, 0, 0.281); */
+}
+
+.little-text {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.hero-text {
+  font-size: 5.2rem;
+  width: 60%;
+}
+.final-text {
+  font-size: 2rem;
+}
+.btn {
+  border: 0;
+  padding: 1rem 1.5rem;
+  font-size: 1.4rem;
+  border-radius: 2rem;
+  background-color: black;
+  color: #fff;
+}
+
+.hero-img-box {
+  display: flex;
+}
+
+.hero-image {
+  height: 40rem;
+  width: 40rem;
+  object-fit: cover;
+  /* height: 35%;
+  width: 35%; */
+}
+
+/*
 :root {
   --yellow: #fffc00;
   --black: #000000;
@@ -387,7 +537,7 @@ header .login-btn:hover {
   letter-spacing: 2px;
 }
 
-/*For screens below 960px*/
+/*For screens below 960px
 @media (max-width: 960px) {
   .content .hero .group {
     height: 90%;
@@ -405,8 +555,10 @@ header .login-btn:hover {
   .content .hero .group .left {
     width: 100%;
   }
-
+  
   .content .hero .group .right {
     width: 100%;
   }
 }
+
+  S*/
