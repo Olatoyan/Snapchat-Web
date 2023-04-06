@@ -52,7 +52,7 @@ body {
 /* Header section */
 
 header {
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 .snap-nav {
   display: flex;
@@ -74,6 +74,7 @@ header {
 .nav-link:link,
 .nav-link:visited {
   text-decoration: none;
+  color: #000;
   padding: 1rem 1.5rem;
   border-radius: 1rem;
   transition: all 0.4s;
@@ -97,36 +98,43 @@ header {
   padding: 1rem 1.5rem;
   background-color: black;
   border-radius: 5rem;
+  transition: all 0.4s;
+}
+
+.cta:hover,
+.cta:active {
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .logo {
-  /* fill: blue; */
   color: black;
-  /* color: white; */
-  width: 30px;
-  height: 30px;
-  /* fill: #fffc00; */
+  width: 3rem;
+  height: 3rem;
 }
 
-/* MAIN  SECTION  Arial */
+/* HEADER SECTION END/ */
+
+/* MAIN  SECTION  */
+
+/* SNAP HERO SECTION */
 
 .snap-hero-section {
-  padding: 4rem;
+  padding: 6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
 .hero-imgs {
   display: flex;
+  margin-left: 4rem;
 }
 
 .hero-img {
   width: 15rem;
   height: 15rem;
-  aspect-ratio: 3/2;
   object-fit: cover;
   border-radius: 50%;
   margin-left: -4rem;
@@ -144,6 +152,7 @@ header {
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-weight: 500;
 }
 
 .text-box {
@@ -154,8 +163,14 @@ header {
 }
 
 .hero-text {
+  text-align: center;
   font-size: 5.2rem;
   width: 60%;
+  font-weight: 800;
+}
+
+.snapchat {
+  font-family: "Style Script", cursive;
 }
 .final-text {
   font-size: 2rem;
@@ -167,15 +182,27 @@ header {
   border-radius: 2rem;
   background-color: black;
   color: #fff;
+  cursor: pointer;
+  transition: all 0.4s;
 }
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  transform: scale(1.2);
+}
+
+/* SNAP HERO SECTION  END */
 
 /* DISCOVER SECTION */
 
 .discover-section {
+  /* background-color: aqua; */
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 3rem;
+  padding: 3rem;
+  margin-bottom: 5rem;
 }
 .heading-secondary {
   font-size: 3rem;
@@ -186,25 +213,87 @@ header {
 .discover-image-box {
   display: flex;
   align-items: flex-end;
-  /* justify-content: center; */
+  margin-bottom: 4rem;
+  gap: 4rem;
+
+  justify-content: center;
 }
 
 .discover-image {
-  height: 50rem;
-  width: 35rem;
+  /* height: 50rem; */
+  /* width: 35rem; */
+  height: 40%;
+  width: 30%;
   object-fit: cover;
   border-radius: 2rem;
-  margin-left: -4rem;
+  /* margin-left: -4rem; */
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+
   /* height: 35%;
   width: 35%; */
 }
 
 .discover-image--1 {
-  height: 60rem;
-  width: 35rem;
+  height: 45%;
+  width: 30%;
   z-index: 1;
 }
+
+/* DISCOVER SECTION END */
+
+/* DISCOVER VID SECTION */
+
+.discover-vid-section {
+  display: flex;
+  align-items: center;
+  background-color: bisque;
+  text-align: center;
+  padding: 4rem;
+}
+
+.discover-vid-box {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+}
+
+.discover-video {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 3rem;
+  width: 100%;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.discover-video-text {
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  background-color: #fffc00;
+  border-radius: 3rem;
+  margin-top: -4rem;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.4s;
+  /* position: absolute;
+  bottom: 5%;
+  left: 7%; */
+}
+
+.discover-video-text:hover {
+  background-color: rgba(222, 222, 0);
+  /* background-color: aqua; */
+}
+/* .discover-link:link,
+.discover-link:visited {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+} */
+
+/* DISCOVER VID SECTION END */
 
 /*
 :root {
@@ -430,7 +519,7 @@ header .login-btn:hover {
   font-size: 20px;
   font-weight: 500;
   color: white;
-  margin-bottom: 10px;
+  fff: 10px;
 }
 
 .item .box button {
@@ -587,4 +676,4 @@ header .login-btn:hover {
   }
 }
 
-  S*/
+  S*/ ;

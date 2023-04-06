@@ -1,0 +1,44 @@
+@media only screen and (max-width: 81.25em) {
+  .discover-vid-section {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 68.75em) {
+  .discover-vid-box {
+    grid-template-columns: repeat(2, 1fr);
+    /* flex-wrap: wrap;
+    flex-direction: column; */
+  }
+}
+
+@media only screen and (max-width: 62.5em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 50em) {
+  html {
+    font-size: 37.5%;
+  }
+  .nav-links {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .hero-text {
+    width: 75%;
+  }
+
+  /* .final-text {
+    width: 75%;
+  } */
+}
+
+@media only screen and (max-width: 28.125em) {
+  html {
+    font-size: 25%;
+  }
+}
